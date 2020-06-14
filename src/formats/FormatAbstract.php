@@ -1,9 +1,9 @@
 <?php
 namespace lulubin\qrcode\formats;
 
-use yii\base\Object;
+use yii\base\BaseObject;
 
-abstract class FormatAbstract extends Object
+abstract class FormatAbstract extends BaseObject
 {
     /**
      * @return string the formatted string to be encoded
